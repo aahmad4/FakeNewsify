@@ -47,6 +47,33 @@ These are pictures of some of our main pages.
 
 We built the back-end infrastructure of our app with Flask, this allows us to do multi-page rendering as well as parsing variables and values to HTML templates and write Python within these templates. We're using NLTK, Scikit-Learn, Pandas, and Numpy to compile data and create our machine learning models. We're using the newsapi to collect data from news articles being updated constantly. We're then using a MongoDB database along with Googles chart drawing features to create nice graphics to provide visuals on these different news article statistics.
 
+## Built With
+
+* [Python 3.7.7](https://www.python.org/)
+   * [Flask](https://flask.palletsprojects.com/)
+   * [NumPy](https://numpy.org/)
+   * [Pandas](https://pandas.pydata.org/)
+   * [Pillow](https://pillow.readthedocs.io/)
+   * [Requests](https://requests.readthedocs.io/en/master/)
+   * [Scikit Learn](https://scikit-learn.org/)
+   * [TensorFlow](https://www.tensorflow.org/)
+   * [Keras](https://keras.io/)   
+   * [SciPy](https://www.scipy.org/)
+   * [NLTK](https://www.nltk.org/)
+   * [Urllib3](https://urllib3.readthedocs.io/en/latest/)
+   * [Beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
+   * [Gunicorn](https://gunicorn.org/)
+   * [PyMongo](https://api.mongodb.com/python/current/)
+* [MongoDB](https://www.mongodb.com/)
+* [News API](https://newsapi.org/docs/client-libraries/python)
+* [Heroku](https://www.heroku.com/)
+* [Google Charts](https://developers.google.com/chart)
+* [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3#:~:text=CSS3%20is%20the%20latest%20evolution,flexible%20box%20or%20grid%20layouts.)
+   * [Bootstrap](https://getbootstrap.com/)
+   * [Semantic UI](https://semantic-ui.com/)
+* [JavaScript](https://www.javascript.com/)
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+
 ## Clone
 
 ```
@@ -63,7 +90,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-First make sure you download NLTK properly
+First make sure you download NLTK properly. Run these in your terminal and click `download` when the popup shows. 
 ```
 python
 >>> import nltk
