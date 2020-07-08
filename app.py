@@ -33,7 +33,8 @@ def about():
 @app.route('/feed')
 def feed():
   headlines = get_headlines()
-  return render_template('feed.html',headlines = headlines)
+  return render_template('feed.html',
+                          headlines = headlines)
 
 
 @app.route('/trends')
