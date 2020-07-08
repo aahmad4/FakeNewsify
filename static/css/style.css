@@ -253,10 +253,15 @@ input:checked + .slider .off
 }
 
 .dark-card {
+  color: white;
   background-color: #353535;
   transition: 0.3s;
   width: 100%;
   margin: 10px;
+}
+
+.dark-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .container {
