@@ -15,7 +15,7 @@ def index():
     article_title = predict[0]
     model.update(value)
     model.update(clickbait)
-    return render_template('index.html', 
+    return render_template('results.html', 
                           value = value, 
                           clickbait = clickbait,
                           text = text,
