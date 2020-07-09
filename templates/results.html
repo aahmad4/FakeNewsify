@@ -16,18 +16,18 @@
       {% endif %}
       <div style="display:inline;">
         {% if value == 'FAKE' %}
-          <button style="border-radius:40px;margin-bottom:15px;margin-top:2%;" type="button" class="btn btn-danger"><b>{{value}}</b></button>
+          <button style="border-radius:40px;margin-bottom:15px;margin-top:2%;pointer-events:none;cursor:default;" type="button" class="btn btn-danger"><b>{{value}}</b></button>
         {% elif value == 'REAL' %}
-          <button style="border-radius:40px;margin-bottom:15px;margin-top:2%;" type="button" class="btn btn-success"><b>{{value}}</b></button>
+          <button style="border-radius:40px;margin-bottom:15px;margin-top:2%;pointer-events:none;cursor:default;" type="button" class="btn btn-success"><b>{{value}}</b></button>
         {% else %}
-          <button style="border-radius:40px;margin-bottom:25px;margin-top:2%;" type="button" class="btn btn-warning"><b>{{value}}</b></button>
+          <button style="border-radius:40px;margin-bottom:25px;margin-top:2%;pointer-events:none;cursor:default;" type="button" class="btn btn-warning"><b>{{value}}</b></button>
         {% endif %}
         {% if clickbait == 'NOT CLICKBAIT' %}
-          <button style="border-radius:40px;margin-bottom:15px;margin-top:2%;" type="button" class="btn btn-success"><b>{{clickbait}}</b></button>
+          <button style="border-radius:40px;margin-bottom:15px;margin-top:2%;pointer-events:none;cursor:default;" type="button" class="btn btn-success"><b>{{clickbait}}</b></button>
         {% elif clickbait == 'CLICKBAIT' %}
-          <button style="border-radius:40px;margin-bottom:15px;margin-top:2%;" type="button" class="btn btn-danger"><b>{{clickbait}}</b></button>
+          <button style="border-radius:40px;margin-bottom:15px;margin-top:2%;pointer-events:none;cursor:default;" type="button" class="btn btn-danger"><b>{{clickbait}}</b></button>
         {% else %}
-          <button style="border-radius:40px;margin-bottom:25px;margin-top:2%;" type="button" class="btn btn-warning"><b>{{clickbait}}</b></button>
+          <button style="border-radius:40px;margin-bottom:25px;margin-top:2%;pointer-events:none;cursor:default;" type="button" class="btn btn-warning"><b>{{clickbait}}</b></button>
         {% endif %}
       </div>
     </div>

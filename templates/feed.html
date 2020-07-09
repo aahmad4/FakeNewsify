@@ -20,14 +20,14 @@
             <h5><a href="{{ title[0] }}">{{ title[0] }}</a></h5>
             <div style="display:inline;margin-top:1%;">
               {% if (title[5]) == 'REAL' %}
-                <button style="border-radius:40px;" type="button" class="btn btn-success"><b>{{title[5]}}</b></button>
+                <button style="border-radius:40px;pointer-events:none;cursor:default;" type="button" class="btn btn-success"><b>{{title[5]}}</b></button>
               {% elif (title[5]) == 'FAKE' %}
-                <button style="border-radius:40px;" type="button" class="btn btn-danger"><b>{{title[5]}}</b></button>
+                <button style="border-radius:40px;pointer-events:none;cursor:default;" type="button" class="btn btn-danger"><b>{{title[5]}}</b></button>
               {% endif %}
               {% if title[6] == 'NOT CLICKBAIT' %}
-                <button style="border-radius:40px;color:white;" type="button" class="btn btn-success"><b>{{title[6]}}</b></button>
+                <button style="border-radius:40px;color:white;pointer-events:none;cursor:default;" type="button" class="btn btn-success"><b>{{title[6]}}</b></button>
               {% else %}
-                <button style="border-radius:40px;color:white;" type="button" class="btn btn-danger"><b>{{title[6]}}</b></button>
+                <button style="border-radius:40px;color:white;pointer-events:none;cursor:default;" type="button" class="btn btn-danger"><b>{{title[6]}}</b></button>
               {% endif %}
             </div>
           </div>
