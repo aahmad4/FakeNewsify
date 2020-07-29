@@ -1,12 +1,24 @@
-# FakeNewsify <img src="logo.png.png" align="right" alt="Logo">
+<p align="center">
+  <img src="logo.png.png" align="" alt="Logo">
+</p>
 
+<h1 align="center">FakeNewsify</h1> 
+
+<p align="center">
 This project was done for the Geom Hacks Hackathon. The competition's main theme was using their tools such as GCP, MongoDB, UI, and Domain.com to build something benificial to people stuck at home during quarantine. Due to the recent situation with a lot of news coverage, we decided to create a web app that can help detect which of these news articles are real and authentic and which of them are fake. These will also better help users decipher between which sources to follow and which to take in through one ear, and out the other.  
+</p>
 
+<p align="center">
 Devpost submission can be found here: https://devpost.com/software/fakenewsify-news-credibility-checker
+</p>
 
+<p align="center">
 A link to a small YouTube demo can be found here: https://www.youtube.com/watch?v=rbDgyr0pr6o
+</p>
 
+<p align="center">
 The app is currently deployed to heroku, you can check it out here: https://fakenewsify.herokuapp.com/
+</p>
 
 ## Screenshots Of Core Pages 
 
