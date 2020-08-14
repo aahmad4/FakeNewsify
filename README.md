@@ -1,7 +1,7 @@
 <p align="center">
   <img src="logo.png.png" align="" alt="Logo">
 </p>
-
+ 
 <h1 align="center">FakeNewsify</h1> 
 
 <p align="center">
