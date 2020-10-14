@@ -9,15 +9,15 @@ This project was done for the Geom Hacks Hackathon. The competition's main theme
 </p>
 
 <p align="center">
-Devpost submission can be found here: https://devpost.com/software/fakenewsify-news-credibility-checker
+Devpost submission can be found here: <a href="https://devpost.com/software/fakenewsify-news-credibility-checker" target="_blank">devpost.com/software/fakenewsify-news-credibility-checker</a>
 </p>
 
 <p align="center">
-A link to a small YouTube demo can be found here: https://www.youtube.com/watch?v=rbDgyr0pr6o
+A link to a small YouTube demo can be found here: <a href="https://www.youtube.com/watch?v=rbDgyr0pr6o" target="_blank">youtube.com/watch?v=rbDgyr0pr6o</a>
 </p>
 
 <p align="center">
-The app is currently deployed to heroku, you can check it out here: https://fakenewsify.herokuapp.com/
+The app is currently deployed to heroku, you can check it out here: <a href="https://fakenewsify.herokuapp.com" target="_blank">fakenewsify.herokuapp.com</a>
 </p>
 
 ## Screenshots Of Core Pages 
@@ -86,13 +86,15 @@ We built the back-end infrastructure of our app with Flask, this allows us to do
 * [JavaScript](https://www.javascript.com/)
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 
-## Clone
+## Setup
+
+#### Clone
 
 ```
-git clone https://github.com/aahmad4/FakeNewsify-Article-Credibility-Checker
+git clone https://github.com/aahmad4/FakeNewsify
 ```
 
-## Installation
+#### Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required packages.
 
@@ -100,8 +102,10 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the req
 pip install -r requirements.txt
 ```
 
-## Usage
-
+#### Usage
+```
+cd FakeNewsify
+```
 First make sure you download NLTK properly. Run these in your terminal and click `download` when the popup shows. 
 ```
 python
