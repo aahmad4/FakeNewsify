@@ -18,7 +18,7 @@ MarkupSafe==1.1.1
 newsapi-python==0.2.6
 newspaper3k==0.2.8
 nltk==3.6.6
-numpy==1.18.5
+numpy==1.22.0
 pandas==1.0.4
 Pillow==9.0.1
 pymongo==3.10.1
